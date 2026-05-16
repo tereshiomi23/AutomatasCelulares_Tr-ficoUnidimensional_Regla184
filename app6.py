@@ -4,7 +4,7 @@ import csv
 import os
 
 # =========================================================================
-# 1. PARÁMETROS E IDENTIDAD (Ítem 3.2)
+# 1. PARÁMETROS E IDENTIDAD 
 # =========================================================================
 N_CELDAS = 200
 ITERACIONES = 150
@@ -14,7 +14,7 @@ VACIO = 0
 COCHE = 1
 
 # =========================================================================
-# 2. FUNCIONES MODULARES (Ítem 3.1)
+# 2. FUNCIONES MODULARES 
 # =========================================================================
 def inicializar_carril(densidad):
     """Crea el estado inicial aleatorio basado en la densidad."""
@@ -49,7 +49,7 @@ def guardar_captura_momento(estado, escenario_id, t, ruta_carpeta):
     plt.close()
 
 # =========================================================================
-# 3. EJECUCIÓN Y GENERACIÓN DE MÉTRICAS (Ítem 3.6 y 3.7)
+# 3. EJECUCIÓN Y GENERACIÓN DE MÉTRICAS
 # =========================================================================
 escenarios = [
     {"id": "A", "densidad": 0.05, "nombre": "Muerte_Rapida"},
